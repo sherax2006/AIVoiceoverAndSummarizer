@@ -1,4 +1,4 @@
-# 🧠 AI Voiceover & Summarizer for Educational PDFs
+#  AI Voiceover & Summarizer for Educational PDFs
 
 A powerful and user-friendly **Streamlit** application that enhances educational content by converting lecture PDFs into **audio voiceovers** and **summarized text** using **Hugging Face Transformers** and **Google Text-to-Speech (gTTS)**.  
 Perfect for students, educators, and e-learning platforms to improve accessibility and comprehension.
@@ -67,12 +67,12 @@ streamlit run app.py
 
 ```
 
--- Example Use Case:
+## Example Use Case:
   A student uploads a PDF of biology lecture slides.
   The app reads each slide aloud, summarizes it, and provides an audio version of the summary — enabling effective multitasking and improved retention during study sessions.
 
 
--- Future Improvements:
+##Future Improvements:
   Multilingual voiceover support
   
   Export all audio files as ZIP

@@ -72,7 +72,7 @@ streamlit run app.py
   The app reads each slide aloud, summarizes it, and provides an audio version of the summary — enabling effective multitasking and improved retention during study sessions.
 
 ---
-##Future Improvements:
+## Future Improvements:
   Multilingual voiceover support
   
   Export all audio files as ZIP

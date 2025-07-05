@@ -81,3 +81,8 @@ streamlit run app.py
   
   Save history and summaries
 
+--
+## Live Demo:
+Project is deployed on Streamlit server:
+
+https://aivoiceoverandsummarizer.streamlit.app/

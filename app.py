@@ -1,4 +1,17 @@
+
  
+# # pip install gtts
+
+# # pip install typer==0.3.2 click==7.1.2 gtts==2.2.3 spleeter==2.4.0
+
+# # pip install gtts streamlit
+
+
+
+# pip install protobuf==3.20.3
+# pip install transformers
+# pip install torch
+
 
 import streamlit as st
 import fitz  # PyMuPDF
@@ -75,6 +88,7 @@ if uploaded_file:
     st.success(f"✅ Extracted {len(doc)} slides.")
 
     for idx, page in enumerate(doc):
+        # Render page to image
         zoom = 2
         mat = fitz.Matrix(zoom, zoom)
         pix = page.get_pixmap(matrix=mat)

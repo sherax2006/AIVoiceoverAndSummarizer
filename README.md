@@ -71,7 +71,7 @@ streamlit run app.py
   A student uploads a PDF of biology lecture slides.
   The app reads each slide aloud, summarizes it, and provides an audio version of the summary — enabling effective multitasking and improved retention during study sessions.
 
-
+---
 ##Future Improvements:
   Multilingual voiceover support
   
